@@ -75,7 +75,7 @@ function infoTeam() {
       e.preventDefault();
 
       const teamID = team.id;
-      window.location.href = `./teamInfo.html?id=${teamID}`;
+      window.location.href = `html/teamInfo.html?id=${teamID}`;
     })
   })
 }
